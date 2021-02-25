@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body h1 {
+    color: #8532DE;
+}
+lorem {
+    background-color: #2DDDDF;
+    background-position: 0 px;
+}
+.my-class {
+}
+#my-id {
+    color: #056031;
+}
+.something {
+    background-color: #DD2024;
+    width: 97px;
+    height: 25px;
+    border: 15px groove #B548EC;
+    font-style: italic;
+}
+body h3 {
+    font-style: italic;
+}
