@@ -1,23 +1,27 @@
 @charset "UTF-8";
+* { margin: 10; padding: 10; border: 10; font-size: 100%; }
 body h1 {
     color: #8532DE;
-}
-lorem {
-    background-color: #2DDDDF;
-    background-position: 0 px;
-}
+	
 .my-class {
+	font-family: 'EB Garamond', serif;
 }
 #my-id {
     color: #056031;
+    background-image: url(../images/winter-6024017_1920.jpg);
+    background-repeat: no-repeat;
 }
 .something {
     background-color: #DD2024;
     width: 97px;
     height: 25px;
     border: 15px groove #B548EC;
-    font-style: italic;
+    font-style: oblique;
+    color: #BE2023;
+    font-size: large;
 }
 body h3 {
     font-style: italic;
+    background-image: url(../images/winter-6024017_1920.jpg);
+    background-position: 123% 0%;
 }
