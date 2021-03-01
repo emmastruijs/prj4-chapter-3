@@ -1,8 +1,8 @@
 @charset "UTF-8";
 * { margin: 10; padding: 10; border: 10; font-size: 100%; }
 body h1 {
-    color: #8532DE;
-	
+	color: #8532DE;
+	}
 .my-class {
 	font-family: 'EB Garamond', serif;
 }
