@@ -1,10 +1,18 @@
 @charset "UTF-8";
-* { margin: 10; padding: 10; border: 10; font-size: 100%; }
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+body{
+	background-image: url("../images/winter-6024017_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 body h1 {
-	color: #8532DE;
+	font-family: 'Noto Sans', sans-serif;
+	color: #8532DE; 
+	font-size: 30px;
 	}
 .my-class {
-	font-family: 'EB Garamond', serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 #my-id {
     color: #056031;
@@ -12,16 +20,66 @@ body h1 {
     background-repeat: no-repeat;
 }
 .something {
-    background-color: #DD2024;
+    background-color: #DFD0D0; 
     width: 97px;
     height: 25px;
     border: 15px groove #B548EC;
     font-style: oblique;
-    color: #BE2023;
-    font-size: large;
+    color: #55A2B0;
+    font-size: 20px; 
+	margin: 10px;
+	text-align: center
 }
 body h3 {
+	font-family: 'Noto Sans', sans-serif;
     font-style: italic;
     background-image: url(../images/winter-6024017_1920.jpg);
     background-position: 123% 0%;
+}
+
+body p{
+	font-family: 'Noto Sans', sans-serif;
+}
+img{
+	width: 600px;
+	margin-left: 30px; 
+}
+
+my-container-lorem{
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+	background-color: antiquewhite;
+	margin: 50px;
+	text-align: center; 
+	border: 5px #A21BEC; 
+}
+
+aside{
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+	padding: 40px; 
+	margin-left: 25px;
+	width: 40%;
+	float:left;
+}
+
+
+section{
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+	padding: 40px; 
+	margin-left: 25px;
+	width: 40%;
+	float:right;
+}
+	
+footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #0B7380;
+color: white;
+text-align: center;
+padding: 30px;
 }
