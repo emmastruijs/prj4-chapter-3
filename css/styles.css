@@ -19,15 +19,22 @@ body h1 {
     background-image: url(../images/winter-6024017_1920.jpg);
     background-repeat: no-repeat;
 }
-.something {
+.container-2 {
+	background-color: #DFD0D0; 
+    height: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.container {
     background-color: #DFD0D0; 
-    width: 97px;
-    height: 25px;
+    width: 200px;
+    height: 300px;
     border: 15px groove #B548EC;
     font-style: oblique;
     color: #55A2B0;
     font-size: 20px; 
-	margin: 10px;
+	margin: 0px;
 	text-align: center
 }
 body h3 {
